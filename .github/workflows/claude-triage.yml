@@ -1,0 +1,12 @@
+name: Claude Issue Triage
+on:
+  issues:
+    types: [opened, edited]
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder headless Claude triage
+        run: |
+          echo "Replace with actual headless CLI once configured."

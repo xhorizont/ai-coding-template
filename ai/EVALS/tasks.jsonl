@@ -1,0 +1,2 @@
+{"id":"smoke-tests","prompt":"Run unit tests and report failures","success_criteria":"No failures"}
+{"id":"typecheck","prompt":"Run type-checking","success_criteria":"No errors"}

@@ -1,0 +1,12 @@
+{
+  "tools": [
+    {
+      "name": "run_tests",
+      "description": "Run the repository test suite",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "model": "claude-3.7-sonnet",
+  "maxTokens": 4000,
+  "allowedTools": [
+    "Edit",
+    "Bash(git:*)",
+    "Bash(npm:*)",
+    "Bash(python:*)"
+  ],
+  "commandsDir": "./ai/assistants/claude/commands"
+}

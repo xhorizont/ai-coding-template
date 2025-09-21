@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install
+        run: npm ci || npm i
+      - name: Tests
+        run: ./ai/tools/run-tests.sh
+      - name: Typecheck
+        run: ./ai/tools/typecheck.sh
+      - name: Lint/Format
+        run: ./ai/tools/format.sh

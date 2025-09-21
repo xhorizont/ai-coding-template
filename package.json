@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "build": "echo \"Add your build step here\"",
+    "test": "node --test || echo \"Add your test runner\"",
+    "lint": "echo \"Run ESLint/biome here\""
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

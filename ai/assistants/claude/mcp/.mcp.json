@@ -1,0 +1,16 @@
+{
+  "clients": [],
+  "servers": [
+    {
+      "command": "mcp-puppeteer",
+      "args": []
+    },
+    {
+      "command": "mcp-sentry",
+      "args": [
+        "--project",
+        "myproj"
+      ]
+    }
+  ]
+}

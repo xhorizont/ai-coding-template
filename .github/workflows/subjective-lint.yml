@@ -1,0 +1,12 @@
+name: Subjective Lint (LLM)
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder subjective lint
+        run: |
+          echo "Run LLM-based style/readability checks here."
